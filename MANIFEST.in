@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include general_voucher_biomak *.css
+recursive-include general_voucher_biomak *.csv
+recursive-include general_voucher_biomak *.html
+recursive-include general_voucher_biomak *.ico
+recursive-include general_voucher_biomak *.js
+recursive-include general_voucher_biomak *.json
+recursive-include general_voucher_biomak *.md
+recursive-include general_voucher_biomak *.png
+recursive-include general_voucher_biomak *.py
+recursive-include general_voucher_biomak *.svg
+recursive-include general_voucher_biomak *.txt
+recursive-exclude general_voucher_biomak *.pyc
